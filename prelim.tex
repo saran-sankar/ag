@@ -1,0 +1,73 @@
+\documentclass[ag.tex]{subfiles}
+
+\begin{document}
+
+\chapter{Preliminaries}
+
+\section{Commutative algebra}
+
+We begin with some algebraic prerequisites.  For more see \cite{atiyah2018introduction}.
+
+\begin{definition}
+A \textit{commutative ring} $(R, +, \cdot, 0,1)$ is an abelian group $(R,+,0)$ along with an associative binary operator $\cdot$ and a unit element $1$ such that for all $x,y,z \in R$
+
+\begin{enumerate}
+\item $x \cdot y = y \cdot x$,
+\item $x \cdot 1 = 1$, and
+\item $x\cdot(y+z) = x\cdot y+x\cdot z$
+
+\end{enumerate}
+
+\end{definition}
+
+We call a commutative ring $(R, +, \cdot , 0,1)$ simply a \textit{ring} and write it as $R$ when there is no ambiguity. Also we denote $x \cdot y$ by $xy$.
+
+\begin{definition}
+An \textit{ideal} of a ring $R$ is a subset $I \subset R$ that is closed under addition ($+$) and "absorbs" multiplication from elements of $R$: for all $x \in R$ and $y \in I$,  $xy \in I$.
+\end{definition}
+
+\begin{proposition}\label{primes_map_to_primes}
+The images and preimages of a prime ideal under ring homomorphisms are prime.
+\end{proposition}
+
+\section{Categories and functors}
+
+\begin{definition}
+A \textit{category} $\mathcal{C}$ consists of a collection of \textit{objects}, a set $\mathcal{C}(A,B)$ of \textit{morphisms} between any two objects, an \textit{identity} morphism $id_A \in \mathcal{C}(A,A)$ for each object $A$, and a composition law
+
+\begin{equation}
+\circ : \mathcal{C} ( B , C ) \times \mathcal{C} ( A , B ) \to \mathcal{C} ( A , C )
+\end{equation}
+
+for each triple of objects $A, B, C$.  Composition must be associative, and identity
+morphisms must behave as their names indicate: $h \circ (g\circ f)=(h\circ g)\circ f, id\circ f=f$, and $f\circ id=f$
+whenever the the composites are defined.
+\end{definition}
+
+\begin{definition}\label{terminal object}
+A \textit{terminal object} of a category $\mathcal{C}$ is an object $T$ to which there is a unique morphism from each object of $\mathcal{C}$.
+\end{definition}
+
+\begin{definition}
+A \textit{functor} $F : \mathcal{C} \to \mathcal{D}$ assigns an object $F(A)$ of $\mathcal{D}$ to each object $A$ of $\mathcal{C}$ and a morphism $F(f) : F(A) \to F(B)$ of $\mathcal{D}$ to each morphism $f:A\to B$ of $\mathcal{C}$ such that 
+
+\begin{equation}
+F(id_A) = id_{F(A)} \text{ and } F(g \circ f) = F(g) \circ F(f).
+\end{equation}
+
+\begin{definition}
+A \textit{natural transformation} $\alpha : F \to G$ between functors $F, G: \mathcal{C} \to \mathcal{D}$ consists of a morphism $\alpha_A : F(A) \to G(A)$ for each object $A$ of $\mathcal{C}$ such that the following diagram commutes for each morphism $f : A \to B$ of $\mathcal{C}$:
+
+\begin{center}
+\begin{tikzcd}
+F(A) \arrow[r, "F(f)"] \arrow[d, "\alpha_A"]
+& F(B) \arrow[d, "\alpha_B"] \\
+G(A) \arrow[r, "G(f)"]
+& |[]| G(B)
+\end{tikzcd}
+\end{center}
+\end{definition}
+
+\end{definition}
+
+\end{document}

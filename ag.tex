@@ -1,0 +1,63 @@
+\documentclass[12pt, oneside]{scrbook}
+\usepackage[a4paper,%
+            left=3.81cm,right=2.54cm,top=2.54cm,bottom=2.54cm,%
+           ]{geometry}
+\usepackage[utf8]{inputenc}
+  
+\usepackage{amsmath, mathtools}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+
+\usepackage{subfiles}
+
+\usepackage{tikz}
+\usetikzlibrary{cd}
+\usepackage{subcaption}
+\usepackage{relsize}
+\usepackage{mathpartir}
+
+\usepackage[T1]{fontenc}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+\theoremstyle{exmp}
+\newtheorem{exmp}{Example}[section]
+
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=nyt
+]{biblatex}
+\addbibresource{bibliography.bib}
+
+
+\begin{document}
+
+\author{Saran Sankar}
+\title{Algebraic geometry notes}
+\date{}
+\maketitle
+
+\chapter*{Preface}
+
+\addcontentsline{toc}{chapter}{Preface}
+
+Mostly notes taken during self-study of \cite{shafarevich2013basic} with some gaps filled in from other sources.  Things are reformulated and simplified using the categorical language whenever possible.
+
+\tableofcontents
+
+\subfile{prelim.tex}
+
+\subfile{schemes.tex}
+
+\printbibliography
+
+\end{document}

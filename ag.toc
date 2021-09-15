@@ -1,0 +1,17 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Preface}{2}{chapter*.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Preliminaries}{4}{chapter.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Commutative algebra}{4}{section.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Categories and functors}{4}{section.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Schemes}{6}{chapter.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}From varieties to spectra}{6}{section.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Sheaves}{7}{section.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Schemes}{8}{section.2.3}% 

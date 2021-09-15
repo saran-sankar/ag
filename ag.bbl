@@ -1,0 +1,80 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{atiyah2018introduction}{book}{}
+      \name{author}{2}{}{%
+        {{hash=247e1c852883312a7c9d4bc6ba04e637}{%
+           family={Atiyah},
+           familyi={A\bibinitperiod},
+           given={Michael\bibnamedelima Francis},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=2bcd484028b297fb16bdaf7be4465c47}{%
+           family={Macdonald},
+           familyi={M\bibinitperiod},
+           given={Ian\bibnamedelima Grant},
+           giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{9e7a4a6528da833812a090dfd0c97ec9}
+      \strng{fullhash}{9e7a4a6528da833812a090dfd0c97ec9}
+      \strng{bibnamehash}{9e7a4a6528da833812a090dfd0c97ec9}
+      \strng{authorbibnamehash}{9e7a4a6528da833812a090dfd0c97ec9}
+      \strng{authornamehash}{9e7a4a6528da833812a090dfd0c97ec9}
+      \strng{authorfullhash}{9e7a4a6528da833812a090dfd0c97ec9}
+      \field{labelalpha}{AM18}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to commutative algebra}
+      \field{year}{2018}
+    \endentry
+    \entry{shafarevich2013basic}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4d4aec2d6c19b77892860f3090d68d7c}{%
+           family={Shafarevich},
+           familyi={S\bibinitperiod},
+           given={Igor\bibnamedelima R},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{4d4aec2d6c19b77892860f3090d68d7c}
+      \strng{fullhash}{4d4aec2d6c19b77892860f3090d68d7c}
+      \strng{bibnamehash}{4d4aec2d6c19b77892860f3090d68d7c}
+      \strng{authorbibnamehash}{4d4aec2d6c19b77892860f3090d68d7c}
+      \strng{authornamehash}{4d4aec2d6c19b77892860f3090d68d7c}
+      \strng{authorfullhash}{4d4aec2d6c19b77892860f3090d68d7c}
+      \field{labelalpha}{Sha13}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Basic algebraic geometry 2: schemes and complex manifolds}
+      \field{year}{2013}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
