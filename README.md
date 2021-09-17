@@ -1,2 +1,2 @@
 # ag
-Algebraic geometry notes
+Algebraic geometry notes (in progress)

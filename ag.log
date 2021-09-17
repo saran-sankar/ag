@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  16 SEP 2021 01:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  16 SEP 2021 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1186,7 +1186,7 @@ chapter 2.
 
 
 ] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
@@ -1207,9 +1207,9 @@ Package logreq Info: Writing requests to 'ag.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
  ) 
 Here is how much of TeX's memory you used:
- 29191 strings out of 492616
- 559855 string characters out of 6129482
- 1097872 words of memory out of 5000000
+ 29192 strings out of 492616
+ 559861 string characters out of 6129482
+ 1097873 words of memory out of 5000000
  32633 multiletter control sequences out of 15000+600000
  20675 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1231,10 +1231,10 @@ ve/2019/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb></usr/local/texlive/201
 9/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on ag.pdf (9 pages, 212098 bytes).
+Output written on ag.pdf (9 pages, 212171 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
  77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
